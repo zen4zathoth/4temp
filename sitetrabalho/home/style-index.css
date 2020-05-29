@@ -1,0 +1,138 @@
+@font-face{
+    font-family: 'open-sans';
+    src: url(open/OpenSans-Regular.ttf);
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #ecf0f1;
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px ;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: open-sans;
+}
+
+li a:hover{
+    color: #b2bec3;
+}
+
+
+#h1-text{ /* Slogan Página */
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 10%;
+    color: white;
+    font-family: open-sans;
+    text-transform: uppercase;
+}
+
+#container-image{ /* Imagem do Site */
+    height: 500px; width: 100%;
+    background-image: url(code.png);
+}
+
+
+
+#container-somos{ /* Aba Sobre do site */
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-family: open-sans;
+    color: #1e272e;
+    padding-top: 60px;
+}
+
+h3{
+    font-family: open-sans;
+    color: #1e272e;
+    font-size: 20px;
+}
+
+p, h4{
+    font-family: open-sans;
+}
+
+#welcomeMessage
+{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: white;
+    font-family: open-sans;
+}
+
+#container-servicos{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #57606f;
+}
+
+#container-contatos{
+    position: relative;
+    width: 100%;
+    height: 840px;
+    background: #a4b0be;
+}
+
+#camposrandom{
+    width: 50%;
+    height: 40px;
+    font-family: open-sans;
+    font-size: 17px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+#button{
+      background-color: #c0392b;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 50%;
+      font-family: open-sans;
+}
+
+

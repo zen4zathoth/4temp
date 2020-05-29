@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style-index.css">
+        <meta charset="utf-8">
+        <title>4Temp | Loja de Templates</title>
+    </head>
+    <body>
+        <div id="container-image">
+            <ul> 
+                <li>
+                    <a href="#container-somos">sobre</a>
+                </li>
+                <li>
+                    <a href="#container-servicos">serviços</a>
+                </li>
+                <li>
+                    <a href="#container-contatos">contato</a>
+                </li> 
+                <li style="float: right;">
+                    <a href="../login/index-login.php">logar</a>
+                </li>
+                <li style="float: right;">
+                    <a href="../registrar/index-register.html">registrar</a>
+                </li>
+            </ul>
+            <h1 id="h1-text">Construa seus sites sem dor de cabeça!</h1>
+    </div>
+
+    <div id="container-somos">
+        <center><h2>Sobre</h2></center> 
+        <center><h3>Nossa Equipe</h3><center>
+
+            <table>
+                <th>
+                    <img src="user.png" style="position: relative; height: 150px; width: 150px; padding: 5px;">
+                    <p>Felipe Lima <br> Designer Gráfico</p>
+                </th>
+
+                <!---->
+
+                <th>
+                    <img src="user.png" style="position: relative; height: 150px; width: 150px; padding: 5px">
+                    <p>Gabriel Da Fontoura <br> Análista de Sistema</p>
+                </th>
+
+                <!---->
+
+                <th>
+                    <img src="user.png" style="position: relative; height: 150px; width: 150px; padding: 5px">
+                    <p>Lucas Vitor <br> Web Design</p>
+                </th>
+
+                <!---->
+                <th>
+                    <img src="user.png" style="position: relative; height: 150px; width: 150px; padding: 5px">
+                    <p>Victor Gomes <br> Programador</p>
+                </th>
+            </table>
+        <!--
+                Texto de "Apresentação" da Empresa ~ Temporário ~ 
+        -->
+        <h4 style="text-align: justify; margin-left: 30px; margin-right: 30px;">A Equipe 4Temp é formada por Felipe Lima como Designer Gráfico, Gabriel da Fontoura como Analista de Sistemas, Lucas Vitor Ferreira como Webdesigner e Victor Gomes como programador.
+        A mesma foi criada visando abranger diferentes áreas de serviço na área da tecnologia da informação, proporcionando um melhor serviço aos clientes.</h4>
+    </div>
+
+
+    <div id="container-servicos">
+        <center><h2>Serviços</h2></center>  <!--Está em braco temporariamente-->
+        <center><h3>Aguarde...</h3><center>
+    </div>
+
+
+    <div id="container-contatos">
+        <center><h2>Contate-nos</h2></center> 
+        <center><h3>Preencha o formulário de contato!</h3><center>
+            <form style="position: relative; top: 20px;" method="POST" action="formcontato.php">
+                <input type="text" placeholder="Nome" id="camposrandom" name="nome" required>
+                <br><br>
+                <input type="email" placeholder="E-mail" id="camposrandom" name="email" required>
+                <br><br>
+                <textarea style="height: 300px" placeholder="Mensagem" name="mensagem" id="camposrandom" required></textarea>
+                <br><input type="submit" id="button" value="Enviar">
+                <br><br><input type="reset" id="button" value="Excluir">
+            </form>
+    </div>
+</body>
+</html>

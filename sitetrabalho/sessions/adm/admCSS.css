@@ -1,0 +1,79 @@
+@font-face{
+  font-family: 'open-sans';
+  src: url(open/OpenSans-Regular.ttf);
+  font-style: normal;
+}
+
+/* Parte do Código no qual formata os elementos exibidos no corpo da página Ex.:O estilo de letra */
+body {
+    margin: 0;
+    font-family: Montserrat;
+    color: white;
+    background-color: #303030;
+    font-family: open-sans;
+  }
+  
+  /* Formatação da Navbar vertical */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    background-color: #222222;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+  }
+
+  .interval
+  {
+    background-color: rgb(46, 46, 46);
+    height: 3px;
+    color: #a0747400;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(224, 224, 224);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: rgb(62, 128, 171);
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c0c0c0;
+    color: #303030;
+  }
+
+  /*Div "main" que exibe o conteudo */
+  #main
+  {
+      position: fixed; left: 145px;
+  }
+
+  /* CSS da Tabela */
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  table th {
+    background-color: rgb(62, 128, 171);
+    text-align: left;
+  }
+
+  table tr:hover
+  {
+    background-color: #404040;
+  }

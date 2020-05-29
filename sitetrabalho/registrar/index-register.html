@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Faça sua conta!</title>
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <meta charset="utf-8">
+        <script src="jquery.js" type="text/javascript">
+        </script>
+    </head>
+
+    <body>
+    <!----
+        <header>
+            
+        </header>
+    -->
+    <article>
+        <h1 class="reg-text">Cadastre-se</h1>
+        <form action="register.php" method="POST">
+        <input type="text" name="nome" placeholder="Nome Completo!" class="caixa" maxlength="30" required>
+        <br><br><input type="email" name="email" placeholder="E-mail válido!" class="caixa" maxlength="100" required>
+        <br><br><input type="password" name="senha" placeholder="Senha válida!" class="caixa" maxlength="30" required>
+        <br><br><input type="date" name="datanascimento" class="caixa" required>
+        <br><br><input type="text" name="cpf" placeholder="999.196.975-67" class="caixa" maxlength="14" required onkeydown="javascript: fMasc( this, mCPF );">
+        <br><br><input type="text" name="telefone" placeholder="(65)3552-1283" class="caixa" maxlength="14" required onkeydown="javascript: fMasc( this, mTel );" placeholder="Exemplo.: (21)90000-0000">
+        <br><br><input type="submit" class="botaozao" value="Cadastrar">
+        <br><br><input type="reset" class="botaozao" value="Excluir Dados">
+        <br><br><label><a href="../login/index-login.php" class="conta">Já possuo cadastro</a></label> 
+    </form>
+        </article>
+    </body>
+</html>
